@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-settings>
+
+	<setting type="githubResDownload">
+		<des>Github资源下载</des>
+		<value>master/resource/</value>
+		<extras>
+			<extra type="base_url">
+				<des>获取Token的地址</des>
+				<value>https://raw.githubusercontent.com/wangdan/AisenWeiBo/</value>
+			</extra>
+			<extra type="http">
+				<value>org.aisen.weibo.sina.support.sdk.GithubResourceDownloadHttpUtility</value>
+			</extra>
+		</extras>
+	</setting>
+
+    <setting type="getPictureSize">
+        <des>获取图片大小</des>
+        <value></value>
+        <extras>
+            <extra type="base_url">
+                <des>获取Token的地址</des>
+                <value></value>
+            </extra>
+            <extra type="http">
+                <value>org.aisen.weibo.sina.support.sdk.PictureSizeHttpUtility</value>
+            </extra>
+        </extras>
+    </setting>
+
+</app-settings>
